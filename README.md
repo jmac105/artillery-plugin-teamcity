@@ -1,5 +1,7 @@
 # Teamcity Build output for Artillery stats
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/csabapalfi/artillery-plugin-teamcity.svg)](https://greenkeeper.io/)
+
 This [Artillery](https://artillery.io/) plugin allows you to publish the
 stats produced by Artillery CLI as [TeamCity build statistics values](      // https://confluence.jetbrains.com/display/TCD9/Build+Script+Interaction+with+TeamCity#BuildScriptInteractionwithTeamCity-ReportingBuildStatistics
 ) which then can be used to [build custom charts in TeamCity](https://confluence.jetbrains.com/display/TCD9/Customizing+Statistics+Charts#CustomizingStatisticsCharts-customCharts). Performance trending at your fingertips!
