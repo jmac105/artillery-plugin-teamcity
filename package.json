@@ -1,0 +1,23 @@
+{
+  "name": "artillery-plugin-teamcity",
+  "version": "1.0.0",
+  "description": "TeamCity output plugin for Artillery",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js | tap-spec"
+  },
+  "keywords": [
+    "artillery",
+    "teamcity"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "debug": "2.2.0",
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}
