@@ -45,7 +45,7 @@ TeamCityPlugin.prototype.report = function report() {
 function _flattenStats(prefix, value, skipList, defaultValue){
   var flattenedStats = {};
   // Skip logic
-  if(l.includes(skipList, prefix)){
+  if(l.contains(skipList, prefix)){
     debug(prefix+' skipped');
     return {};
   }
